@@ -11,4 +11,6 @@ namespace :greeting do
   end 
 end 
 
-desc 'migrates code to database'
+namespace :db 
+
+  desc ''
