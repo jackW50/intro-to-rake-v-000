@@ -10,3 +10,5 @@ namespace :greeting do
     puts "hola de Rake!"
   end 
 end 
+
+desc 'migrates code to database'
