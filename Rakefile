@@ -14,5 +14,11 @@ end
 namespace :db 
 
   desc 'migrate changes to your database'
-  task :migrate => :environment 
+  task :migrate => :environment do 
+    Student.create_table 
+  end 
+  
+  desc 'seed dummy data into database'
+  task :seed => :environment do 
+    
     
