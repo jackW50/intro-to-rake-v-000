@@ -23,6 +23,7 @@ namespace :db
   end 
   
   desc 'seed dummy data into database'
-  task :seed => :environment do 
+  task :seed do 
+    require_relative './db/seeds.rb'
     
     
